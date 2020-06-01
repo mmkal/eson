@@ -17,5 +17,5 @@ export declare const stringify: {
 }
 export declare const parse: (
   value: string,
-  reviver: (key: string, value: any) => any
+  reviver?: (key: string, value: any) => any
 ) => any
