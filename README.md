@@ -1,4 +1,4 @@
-# JSON5 – JSON for Humans
+# ESON – JSON for Humans
 
 [![Build Status](https://travis-ci.org/mmkal/eson.svg)][Build Status]
 [![Coverage
