@@ -1,12 +1,13 @@
 // This is a generated file. Do not edit.
 {
   name: 'eson-parser',
-  version: '0.0.1',
+  version: '0.0.2',
   description: 'JSON for humans.',
   main: 'lib/index.js',
   module: 'dist/index.mjs',
   bin: 'lib/cli.js',
   browser: 'dist/index.js',
+  types: 'index.d.ts',
   files: [
     'lib/',
     'dist/',
