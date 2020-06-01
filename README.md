@@ -1,9 +1,11 @@
 # JSON5 – JSON for Humans
 
-[![Build Status](https://travis-ci.org/json5/json5.svg)][Build Status]
+[![Build Status](https://travis-ci.org/mmkal/eson.svg)][Build Status]
 [![Coverage
-Status](https://coveralls.io/repos/github/json5/json5/badge.svg)][Coverage
+Status](https://coveralls.io/repos/github/mmkal/eson/badge.svg)][Coverage
 Status]
+
+NOTE: This is a fork from https://github.com/json5/json5, with added support for [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Since JSON5 is a well-established and active project, most references to "JSON5" in the forked repository have _not_ been replaced with "ESON", to avoid merge conflicts.
 
 The JSON5 Data Interchange Format (JSON5) is a superset of [JSON] that aims to
 alleviate some of the limitations of JSON by expanding its syntax to include
@@ -12,7 +14,7 @@ some productions from [ECMAScript 5.1].
 This JavaScript library is the official reference implementation for JSON5
 parsing and serialization libraries.
 
-[Build Status]: https://travis-ci.org/json5/json5
+[Build Status]: https://travis-ci.org/mmkal/eson
 
 [Coverage Status]: https://coveralls.io/github/json5/json5
 
@@ -34,6 +36,8 @@ been extended to JSON5.
 ### Strings
 - Strings may be single quoted.
 - Strings may span multiple lines by escaping new line characters.
+- Strings may be backtick (\`) quoted.
+- Backtick quoted strings may span multiple lines without explicit new line characters.
 - Strings may include character escapes.
 
 ### Numbers
