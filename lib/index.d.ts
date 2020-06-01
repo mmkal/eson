@@ -1,7 +1,3 @@
-type Replacer =
-  | ((val: any) => any)
-  | (string | number)[]
-
 interface StringifyOptions {
   replacer?: 
     | ((val: any) => any)
