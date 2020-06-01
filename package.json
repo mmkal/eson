@@ -1,12 +1,12 @@
 {
   "name": "eson-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSON for humans.",
   "main": "lib/index.js",
   "module": "dist/index.mjs",
   "bin": "lib/cli.js",
   "browser": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/",
     "dist/"
