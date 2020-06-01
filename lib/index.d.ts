@@ -12,7 +12,7 @@ interface StringifyOptions {
 }
 
 export declare const stringify: {
-  (value: unknown, replacer?: StringifyOptions['replacer'], quote?: StringifyOptions['quote']): string
+  (value: unknown, replacer?: StringifyOptions['replacer'], space?: StringifyOptions['space']): string
   (value: unknown, options: StringifyOptions): string
 }
 export declare const parse: (
