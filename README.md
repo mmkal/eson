@@ -5,7 +5,7 @@
 Status](https://coveralls.io/repos/github/mmkal/eson/badge.svg)][Coverage
 Status]
 
-NOTE: This is a fork of https://github.com/json5/json5, with added support for [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Since JSON5 is a well-established and active project, most references to "JSON5" in the forked repository have _not_ been replaced with "ESON", to avoid merge conflicts. When reading these docs and source code, you can mentally replace "JSON5" with "ESON" (or "json5" with "eson"). View the diff with JSON5 [here](https://github.com/json5/json5/compare/master...mmkal:master) (`lib/parse.js` contains the changes in functionality)
+_NOTE: This is a backwards-compatible fork of https://github.com/json5/json5, with added support for [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) - based on the idea in [this comment](https://github.com/json5/json5/issues/190#issuecomment-629661859). Since JSON5 is a well-established and active project, most references to "JSON5" in this fork have *not* been replaced with "ESON", to avoid merge conflicts. When reading these docs and source code, you can mentally replace "JSON5" with "ESON" (or "json5" with "eson"). The references that have been changed are mostly those that would be directly misleading if they were left as json5 (e.g. github/travis/coveralls/npmjs.com links and [installation instructions](#installation)) View the diff with JSON5 [here](https://github.com/json5/json5/compare/master...mmkal:master) (`lib/parse.js` contains the changes in functionality)._
 
 The JSON5 Data Interchange Format (JSON5) is a superset of [JSON] that aims to
 alleviate some of the limitations of JSON by expanding its syntax to include
@@ -62,8 +62,8 @@ been extended to JSON5.
   // comments
   unquoted: 'and you can quote me on that',
   singleQuotes: 'I can use "double quotes" here',
-  lineBreaks: "Look, Mom! \
-No \\n's!",
+  lineBreaks: `Look, Mom!
+No \\n's!`,
   hexadecimal: 0xdecaf,
   leadingDecimalPoint: .8675309, andTrailing: 8675309.,
   positiveSign: +1,
