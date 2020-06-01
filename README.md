@@ -79,11 +79,11 @@ specification](https://json5.github.io/json5-spec/).
 ## Installation
 ### Node.js
 ```sh
-npm install json5
+npm install eson-parser
 ```
 
 ```js
-const JSON5 = require('json5')
+const ESON = require('eson-parser')
 ```
 
 ### Browsers
