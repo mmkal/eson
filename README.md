@@ -5,7 +5,7 @@
 Status](https://coveralls.io/repos/github/mmkal/eson/badge.svg)][Coverage
 Status]
 
-NOTE: This is a fork from https://github.com/json5/json5, with added support for [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Since JSON5 is a well-established and active project, most references to "JSON5" in the forked repository have _not_ been replaced with "ESON", to avoid merge conflicts. View the diff with JSON5 [here](https://github.com/json5/json5/compare/master...mmkal:master) (`lib/parse.js` contains the changes in functionality)
+NOTE: This is a fork of https://github.com/json5/json5, with added support for [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). Since JSON5 is a well-established and active project, most references to "JSON5" in the forked repository have _not_ been replaced with "ESON", to avoid merge conflicts. When reading these docs and source code, you can mentally replace "JSON5" with "ESON" (or "json5" with "eson"). View the diff with JSON5 [here](https://github.com/json5/json5/compare/master...mmkal:master) (`lib/parse.js` contains the changes in functionality)
 
 The JSON5 Data Interchange Format (JSON5) is a superset of [JSON] that aims to
 alleviate some of the limitations of JSON by expanding its syntax to include
@@ -16,7 +16,7 @@ parsing and serialization libraries.
 
 [Build Status]: https://travis-ci.org/mmkal/eson
 
-[Coverage Status]: https://coveralls.io/github/json5/json5
+[Coverage Status]: https://coveralls.io/github/mmkal/eson
 
 [JSON]: https://tools.ietf.org/html/rfc7159
 
@@ -88,10 +88,10 @@ const ESON = require('eson-parser')
 
 ### Browsers
 ```html
-<script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+<script src="https://unpkg.com/eson-parser@^0.0.1/dist/index.min.js"></script>
 ```
 
-This will create a global `JSON5` variable.
+This will create a global `ESON` variable.
 
 ## API
 The JSON5 API is compatible with the [JSON API].
